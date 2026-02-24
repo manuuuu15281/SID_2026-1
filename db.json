@@ -1,46 +1,40 @@
-[
-  {
-    "id": 1,
-    "nombre": "Luciana",
-    "state": true,
-    "characters": [
-      1,
-      5,
-      8,
-      52
-    ]
-  },
-  {
-    "id": 2,
-    "nombre": "Nicolás",
-    "state": true,
-    "characters": [
-      2,
-      3,
-      7,
-      29
-    ]
-  },
-  {
-    "id": 3,
-    "nombre": "Manolo",
-    "state": true,
-    "characters": [
-      4,
-      6,
-      9,
-      98
-    ]
-  },
-  {
-    "id": 4,
-    "nombre": "Maria Alejandra",
-    "state": true,
-    "characters": [
-      17,
-      11,
-      19,
-      63
-    ]
-  }
-]
+{
+  "customDecks": [
+    {
+      "id": 1,
+      "ownerName": "Jugador DB",
+      "cards": [
+        {
+          "id": 101,
+          "name": "xXx_alphaSniper9_xXx",
+          "image": ""
+        },
+        {
+          "id": 102,
+          "name": "heliodoro",
+          "image": ""
+        },
+        {
+          "id": 103,
+          "name": "octavio",
+          "image": ""
+        },
+        {
+          "id": 104,
+          "name": "asdasd",
+          "image": ""
+        },
+        {
+          "id": 105,
+          "name": "hola",
+          "image": ""
+        },
+        {
+          "id": 106,
+          "name": "porfa funciona",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

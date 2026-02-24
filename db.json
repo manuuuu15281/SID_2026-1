@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Manuela",
+      "characters": [1, 2, 3, 4]
+    },
+    {
+      "id": 2,
+      "username": "Valentina",
+      "characters": [5, 10, 12, 20]
+    },
+    {
+      "id": 3,
+      "username": "Santiago",
+      "characters": [8, 15, 22, 30]
+    },
+    {
+      "id": 4,
+      "username": "Camila",
+      "characters": [7, 18, 25, 40]
+    },
+    {
+      "id": 5,
+      "username": "Juan",
+      "characters": [6, 11, 17, 50]
+    }
+  ]
+}

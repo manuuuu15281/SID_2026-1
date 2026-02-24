@@ -1,1 +1,45 @@
-
+[
+  {
+    "id": 1,
+    "nombre": "Luciana",
+    "state": true,
+    "characters": [
+      1,
+      5,
+      8,
+      52
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Nicolás",
+    "state": true,
+    "characters": [
+      2,
+      3,
+      7,
+      29
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Manolo",
+    "state": true,
+    "characters": [
+      4,
+      6,
+      9,
+      98
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Maria Alejandra",
+    "state": true,
+    "characters": [
+      17,
+      11,
+      19.63
+    ]
+  }
+]

@@ -24,6 +24,10 @@ public class HttpTest2: MonoBehaviour
  
         if (www.result != UnityWebRequest.Result.Success) {
             Debug.Log(www.error);
+            if(www.responseCode == 404)
+            {
+                Debug.Log("Character not found");
+            }
         }
         else 
         {
@@ -37,19 +41,18 @@ public class HttpTest2: MonoBehaviour
 
     IEnumerator GetTexture(string imageUrl)
     {
-        using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(URL + "/" + characterID))
+    using (UnityWebRequest uwr = UnityWebRequestTexture.GetTexture(imageUrl))
         {
-            yield return uwr.SendWebRequest();
+        yield return uwr.SendWebRequest();
 
-            if (uwr.result != UnityWebRequest.Result.Success)
+        if (uwr.result != UnityWebRequest.Result.Success)
             {
-                Debug.Log(uwr.error);
+            Debug.LogError("Texture error: " + uwr.error);
             }
-            else
+        else
             {
-                // Get downloaded asset bundle
-                var texture = DownloadHandlerTexture.GetContent(uwr);
-                CharacterImage.texture = texture;
+            var texture = DownloadHandlerTexture.GetContent(uwr);
+            CharacterImage.texture = texture;
             }
         }
     }

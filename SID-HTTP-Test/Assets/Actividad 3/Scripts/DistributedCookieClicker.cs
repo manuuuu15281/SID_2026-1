@@ -101,9 +101,9 @@ public class DistributedCookieClicker : MonoBehaviour
         if (closeLeaderboardButton != null) closeLeaderboardButton.onClick.AddListener(OnCloseLeaderboardButton);
     }
 
-    // =========================
+  
     // AUTH PANELS
-    // =========================
+  
 
     public void ShowLoginPanel()
     {
@@ -119,9 +119,9 @@ public class DistributedCookieClicker : MonoBehaviour
         SetStatus("Crea una cuenta nueva.");
     }
 
-    // =========================
+  
     // AUTH
-    // =========================
+  
 
     public void OnRegisterButton()
     {
@@ -184,6 +184,8 @@ public class DistributedCookieClicker : MonoBehaviour
         loginPasswordInput.text = "";
         registerPasswordInput.text = "";
     }
+
+
 
     private IEnumerator LoginCoroutine(string user, string pass)
     {
